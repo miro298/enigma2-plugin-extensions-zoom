@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu name="CCcam (cfg) Downloader E2 v1.0 Lite" >
+<entry name="invisible download of all servers during broadcast" shortcut="red" help="(red) stáhnout z tohoto serveru" >			
+		<usersh name="for CCcam" target="/usr/script/tiche.sh" confirmation="true" shortcut="yellow" help="(yellow) stáhnout z tohoto serveru"  exit="yes">
+		</usersh>
+<usersh name="for Oscam" target="/usr/script/tiche1.sh" confirmation="true" shortcut="blue" help="(blue) stáhnout z tohoto serveru"  exit="yes">
+			</usersh>
+<usersh name="" target="" confirmation="true" shortcut="" help=""  exit="no">
+			</usersh>
+			<usersh name="" target="" confirmation="true" shortcut="" help=""  exit="no">
+			</usersh>
+			<usersh name="" target="" confirmation="true" shortcut="" help=""  exit="no">
+			</usersh>
+			<usersh name="" target="" confirmation="true" shortcut="" help=""  exit="no">
+			</usersh>
+			<usersh name="" target="" confirmation="true" shortcut="" help=""  exit="no">
+			</usersh>
+<usersh name="return to Zoom version" target="/usr/script/Normal.sh" confirmation="true" shortcut="green" help="(green) stáhnout z tohoto serveru"  exit="yes">
+			</usersh>
+			
+         </entry>
+</menu>
